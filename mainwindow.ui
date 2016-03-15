@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>299</width>
-    <height>371</height>
+    <width>311</width>
+    <height>324</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,7 @@
    <double>1.000000000000000</double>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>301</width>
-      <height>71</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -144,20 +134,7 @@
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>230</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>0</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="pushButton_0">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -167,23 +144,10 @@
      </rect>
     </property>
     <property name="text">
-     <string>00</string>
+     <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>180</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>^</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="pushButton_EQUAL">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -196,7 +160,7 @@
      <string>=</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="pushButton_PLUS">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -209,7 +173,7 @@
      <string>+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="pushButton_MINUS">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -222,7 +186,7 @@
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="pushButton_MULTI">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -235,7 +199,7 @@
      <string>*</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="pushButton_DIVIDE">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -248,108 +212,27 @@
      <string>/</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>230</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>.</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_19">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>230</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>(</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_20">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>230</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>)</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_21">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>280</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>cot()</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_22">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>280</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>tan()</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_23">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>280</y>
-      <width>61</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>cos()</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_24">
+   <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>280</y>
-      <width>61</width>
-      <height>51</height>
+      <y>0</y>
+      <width>291</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="text">
-     <string>sin()</string>
-    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_25">
+   <widget class="QPushButton" name="pushButton_CLEAR">
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>280</y>
+      <y>180</y>
       <width>61</width>
       <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>x^2</string>
+     <string>C</string>
     </property>
    </widget>
   </widget>
@@ -359,7 +242,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>299</width>
+     <width>311</width>
      <height>21</height>
     </rect>
    </property>
@@ -369,11 +252,23 @@
     </property>
     <addaction name="actionNew_Window"/>
    </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
    <addaction name="menuFile"/>
+   <addaction name="menuHelp"/>
   </widget>
   <action name="actionNew_Window">
    <property name="text">
     <string>New Window</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
    </property>
   </action>
  </widget>
@@ -381,402 +276,258 @@
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton</sender>
+   <sender>pushButton_1</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>19</x>
-     <y>120</y>
+     <x>18</x>
+     <y>108</y>
     </hint>
     <hint type="destinationlabel">
-     <x>20</x>
-     <y>90</y>
+     <x>22</x>
+     <y>58</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>78</x>
-     <y>113</y>
+     <x>80</x>
+     <y>120</y>
     </hint>
     <hint type="destinationlabel">
-     <x>76</x>
-     <y>76</y>
+     <x>81</x>
+     <y>57</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>141</x>
-     <y>110</y>
+     <x>137</x>
+     <y>101</y>
     </hint>
     <hint type="destinationlabel">
-     <x>141</x>
-     <y>88</y>
+     <x>137</x>
+     <y>60</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_13</sender>
+   <sender>pushButton_EQUAL</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>185</x>
+     <x>205</x>
+     <y>128</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_PLUS</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
      <y>109</y>
     </hint>
     <hint type="destinationlabel">
-     <x>194</x>
-     <y>87</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_14</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>270</x>
-     <y>129</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>273</x>
-     <y>83</y>
+     <x>252</x>
+     <y>51</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_4</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>33</x>
-     <y>163</y>
+     <x>27</x>
+     <y>160</y>
     </hint>
     <hint type="destinationlabel">
-     <x>37</x>
-     <y>81</y>
+     <x>33</x>
+     <y>38</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_5</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>88</x>
-     <y>156</y>
+     <x>95</x>
+     <y>183</y>
     </hint>
     <hint type="destinationlabel">
-     <x>95</x>
-     <y>80</y>
+     <x>98</x>
+     <y>45</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_6</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>154</x>
-     <y>159</y>
+     <x>144</x>
+     <y>152</y>
     </hint>
     <hint type="destinationlabel">
-     <x>156</x>
-     <y>89</y>
+     <x>157</x>
+     <y>39</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_15</sender>
+   <sender>pushButton_MINUS</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>212</x>
+     <x>231</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>220</x>
+     <y>49</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_MULTI</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
      <y>158</y>
     </hint>
     <hint type="destinationlabel">
-     <x>208</x>
-     <y>77</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_16</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>259</x>
-     <y>161</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>252</x>
-     <y>82</y>
+     <x>270</x>
+     <y>51</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_7</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>30</x>
-     <y>213</y>
+     <x>36</x>
+     <y>201</y>
     </hint>
     <hint type="destinationlabel">
-     <x>51</x>
-     <y>86</y>
+     <x>50</x>
+     <y>49</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_8</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>108</x>
-     <y>214</y>
+     <x>97</x>
+     <y>201</y>
     </hint>
     <hint type="destinationlabel">
-     <x>107</x>
-     <y>90</y>
+     <x>104</x>
+     <y>39</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>pushButton_9</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>152</x>
-     <y>216</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>167</x>
-     <y>78</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_17</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>186</x>
-     <y>216</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>221</x>
-     <y>63</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_12</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>278</x>
+     <x>150</x>
      <y>212</y>
     </hint>
     <hint type="destinationlabel">
-     <x>283</x>
-     <y>80</y>
+     <x>169</x>
+     <y>53</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_20</sender>
+   <sender>pushButton_DIVIDE</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>278</x>
-     <y>254</y>
+     <x>191</x>
+     <y>210</y>
     </hint>
     <hint type="destinationlabel">
-     <x>294</x>
-     <y>69</y>
+     <x>195</x>
+     <y>48</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_19</sender>
+   <sender>pushButton_0</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>218</x>
-     <y>254</y>
+     <x>76</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
-     <x>229</x>
-     <y>66</y>
+     <x>90</x>
+     <y>31</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_21</sender>
+   <sender>pushButton_CLEAR</sender>
    <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
+   <receiver>lcdNumber</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>201</x>
-     <y>304</y>
+     <x>205</x>
+     <y>260</y>
     </hint>
     <hint type="destinationlabel">
-     <x>203</x>
-     <y>87</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_18</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>168</x>
-     <y>254</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>175</x>
-     <y>36</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_22</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>153</x>
-     <y>312</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>149</x>
-     <y>78</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_11</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>100</x>
-     <y>273</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>113</x>
-     <y>77</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_23</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>85</x>
-     <y>304</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>86</x>
-     <y>78</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_10</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>28</x>
-     <y>255</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>8</x>
-     <y>78</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_24</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>35</x>
-     <y>306</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>30</x>
-     <y>42</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_25</sender>
-   <signal>clicked()</signal>
-   <receiver>textEdit</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>273</x>
-     <y>315</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>262</x>
-     <y>86</y>
+     <x>182</x>
+     <y>40</y>
     </hint>
    </hints>
   </connection>
